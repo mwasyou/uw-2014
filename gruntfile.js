@@ -33,6 +33,7 @@ module.exports = function(grunt) {
           "js/uw.images.js",
           "js/uw.player.js",
           "js/uw.social.js",
+          "js/uw.mobile-sidebar-menu.js",
         ],
         components : [
           // todo: put just external components here for the uw.js we will give out

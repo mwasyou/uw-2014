@@ -1,7 +1,7 @@
 #mobile-relative {
-    display: none;
+    display: block;
     ul.uw-mobile-menu {
-      display: none;
+      display: block;
       width: 100%;
       float: right;
       clear: both;
@@ -27,9 +27,9 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 768px) {
 
-  //Hides desktop version
-  #desktop-relative {
-    display: none;
+  //Hides desktop version - show it
+  #mobile-relative {
+    display: inline;
   }
 
   .uw-mobile-menu li {
@@ -69,7 +69,7 @@
       }
     }
     ul.uw-mobile-menu li.pagenav ul li.current_page_parent.current_page_ancestor > a:after {
-      display: none;
+      display: inline;
     }
     &.frontpage {
         margin-top: -10px;
